@@ -82,7 +82,7 @@ def url_analyzer() -> None:
     print(f"Fragment: {parsed.fragment or 'N/A'}")
 
 
-def show_menu() -> None:
+def pause() -> None:\n    input("\nPress Enter to return to the menu...")\n\n\ndef show_menu() -> None:
     print("\n" + "=" * 42)
     print("        🔐 CYBERSECURITY TOOLKIT")
     print("=" * 42)
