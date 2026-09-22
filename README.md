@@ -66,7 +66,7 @@ The current toolkit uses Python's standard library, so there is nothing to insta
 ### 4. Run a tool
 
 ```bash
-python tools/password_checker.py
+python main.py
 python tools/file_hash.py
 python tools/port_scanner.py
 python tools/url_analyzer.py
@@ -114,7 +114,7 @@ For practice, use your own computer, a local lab, or systems specifically provid
 - [x] Add unit tests
 - [x] Add learning notes
 - [x] Improve documentation
-- [ ] Add a simple CLI menu
+- [x] Add a simple CLI menu
 - [ ] Add more defensive utilities
 
 ## 👨‍💻 Author
