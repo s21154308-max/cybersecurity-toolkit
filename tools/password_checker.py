@@ -1,6 +1,6 @@
 """Basic password strength checker for educational use."""
 
-import re
+import getpass\nimport re
 
 
 def check_password(password: str) -> tuple[int, list[str]]:
@@ -40,7 +40,7 @@ def check_password(password: str) -> tuple[int, list[str]]:
 
 def main() -> None:
     print("🔐 Password Strength Checker")
-    password = input("Enter a password to evaluate: ")
+    password = getpass.getpass("Enter a password to evaluate: ")
 
     score, feedback = check_password(password)
     max_score = 6
