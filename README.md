@@ -72,7 +72,7 @@ python tools/port_scanner.py
 python tools/url_analyzer.py
 ```
 
-## 🧪 Run Tests
+## 💻 Example CLI Output\n\n```text\n==========================================\n        🔐 CYBERSECURITY TOOLKIT\n==========================================\n1. Password Strength Checker\n2. SHA-256 File Hash Generator\n3. TCP Port Scanner\n4. URL Analyzer\n5. Exit\n==========================================\n```\n\nThe CLI keeps password input hidden and validates common invalid inputs without making network requests except for the authorized TCP port scanner.\n\n## 🧪 Run Tests
 
 The project includes basic automated tests for the reusable functions.
 
@@ -114,7 +114,7 @@ For practice, use your own computer, a local lab, or systems specifically provid
 - [x] Add unit tests
 - [x] Add learning notes
 - [x] Improve documentation
-- [x] Add a simple CLI menu
+- [x] Add a simple CLI menu\n- [x] Improve input validation and error handling\n- [x] Hide password input in the terminal\n- [x] Add edge-case tests
 - [ ] Add more defensive utilities
 
 ## 👨‍💻 Author
@@ -125,6 +125,6 @@ Focus: Cybersecurity • IoT • Blockchain
 
 ---
 
-### 💡 Learn. Build. Secure. Repeat.
+### 📌 Version 1.0\n\nThe first version is focused on safe, beginner-friendly defensive utilities and clean Python project structure.\n\n### 💡 Learn. Build. Secure. Repeat.
 
 ⭐ Building my cybersecurity portfolio one project at a time.
