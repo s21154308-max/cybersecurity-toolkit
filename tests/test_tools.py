@@ -4,7 +4,7 @@ from pathlib import Path
 
 from tools.password_checker import check_password
 from tools.file_hash import sha256_file
-from tools.url_analyzer import urlparse
+from tools.url_analyzer import urlparse\n
 
 
 class TestPasswordChecker(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestFileHash(unittest.TestCase):
 
 
 class TestURLAnalyzer(unittest.TestCase):
-    def test_url_components(self):
+    def test_invalid_port_raises(self):\n        with self.assertRaises(ValueError):\n            urlparse("https://example.com:invalid")\n\n    def test_url_components(self):
         parsed = urlparse("https://example.com:8080/path?x=1#section")
         self.assertEqual(parsed.scheme, "https")
         self.assertEqual(parsed.hostname, "example.com")
