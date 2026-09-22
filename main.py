@@ -4,7 +4,7 @@ from tools.file_hash import sha256_file
 from tools.password_checker import check_password
 from tools.port_scanner import scan_port, COMMON_PORTS
 from tools.url_analyzer import urlparse
-import socket
+import getpass\nimport socket
 
 
 def password_checker() -> None:
